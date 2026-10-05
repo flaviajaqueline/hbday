@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="topodosite">
+<h1> 
+    OMG UM SITE SECRETO?????
+</h1>
+<h2> so i´m turning 19 ALREADY?
+</h2>
+<div class="player-com-imagem">
+<div id="player-barbie"> 
+    <span> <img id="fotinhaglobo"src="image-removebg-preview (4).png" alt="fotinhaglobo" </span>
+    <button onclick="toggleMusic()" id="musicButton"> PLAY MUSIC</button>
+    <span> <img id="mp3"src="mp3.png" class="mp3zizinho"></span>
+    <audio id="musica" src="pinkpanthress.mp3" type="audio/mpeg"> </audio>
+    
+</div>
+<div class="kit">
+    <h2>🧸 KIT SOBREVIVÊNCIA</h2>
+    <h3>DA NOITE 🌙</h3>
+
+    <div class="itens">
+        <p>☑️ Pijama confortável</p>
+        <p>☑️ Travesseiro</p>
+        <p>☑️ chinelito</p>
+        <p>☑️ Escova de dentes</p>
+    </div>
+
+    <span>✦ ✦ ✦</span>
+
+    <p class="frase">
+        Não esqueça! Vai ser uma noite sem hora pra dormir! 🌙
+    </p>
+</div>
+<img id="pulando"src="sleepover.PNG"class="ciminha">
+</div>
+
+<div id="toptexto">
+    
+    <div class="texto-giratorio">
+  <svg viewBox="0 0 200 200" class="texto-circular"> 
+        <defs> 
+            <path id="circulo" 
+            d="M 100, 100 
+            m-70,0 
+        a 70, 70, 0 1,1 140,0 
+        a 70,70 0 1,1 -140,0"
+        />
+        </defs>
+    <text> 
+        <textPath href= "#circulo">
+        happy birthday happy birthday happy birthday happy birthday happy birthday happy 
+    </textPath>
+</text>
+ </svg>
+ </div>
+ </div>
+ </div>
+  <div id="funfun"><p> FLAVITA.COM.BR</p>
+</div>
+<div id="container">
+<div id="caixinha1">
+    
+      <h3>oiiiiiiiiiiii amiga querida
+        preparei esse fast site anos 2000' para informar que você está convidada para minha "sleepover" no dia 10/10 xoxo
+        Então prepare o pijama, mascara de dormir e carregue suas energias pois irá precisar!!
+        te espero ás 18:30!!
+        endereço: Rua do cruzeiro 450 bye bye ;0
+      </h1> 
+<span><img id="gatitos"src="cats.png" class="gatitos"></span>
+</div>
+<div id="caixona"><p id="listagem">E TEMOS LISTA DE FILMES SIM!!! SERÁ SORTEADO NO DIA!!!</p>
+<div class="carrossel">
+    <button class="seta" onclick="anterior()">‹</button>
+
+    <video id="gif" src="gif1.mp4" autoplay loop muted></video> 
+
+    <button class="seta" onclick="proximo()">›</button>
+</div>
+<script>const gifs = [
+    "gif1.mp4",
+    "gif2.mp4",
+    "gif3.mp4",
+    "gif4.mp4"
+];
+
+let atual = 0;
+
+function proximo() {
+    atual++;
+
+    if (atual >= gifs.length) {
+        atual = 0;
+    }
+
+    document.getElementById("gif").src = gifs[atual];
+}
+
+function anterior() {
+    atual--;
+
+    if (atual < 0) {
+        atual = gifs.length - 1;
+    }
+
+    document.getElementById("gif").src = gifs[atual];
+}</script>
+<Div class="movies">
+<p>  <h1>DENTRE ELES!!</h1>
+<h3 id="primeiro">
+<li> Meninas Malvadas (2004)</li>
+<li> As Branquelas (2004) </li>
+<li> Legalmente Loira (2001)</li>
+<li> De Repente 30 (2004)</li>
+<li> Sexta-Feira Muito Louca (2003)</li>
+<li>O Diário da Princesa (2001)</li>
+<LI> O Diário da Princesa 2 (2004)</LI> 
+<li>Ela é Demais (2001)</li>
+<Li>A Nova Cinderela (2004)</Li>
+<li>Lizzie McGuire: O Filme (2003)</li>
+<li>Doze é Demais (2003)</li>
+
+</h3>
+<h4 id="segundo">
+ Comédia meio absurda / estilo TED AQUELE MALDITO URSO JSS
+
+<li>Todo Mundo em Pânico (2000)</li>
+<li>Todo Mundo em Pânico 2 (2001)</li>
+<li>Todo Mundo em Pânico 3 (2003)</li>
+<li> EuroTrip (2004)</li>
+<li> Se Beber, Não Case! (2009)</li>
+<li> Click (2006)</li>
+<li> DIARIO DE UM BANANA!!!!!</li>
+</h4>
+<h5 id="terceiro">
+ Romance affffffff
+<li> Como Se Fosse a Primeira Vez (2004)</li>
+<li>De Repente 30 (2004)</li>
+<li>Diário de uma Paixão (2004)</li>
+<li>O Amor Não Tira Férias (2006)</li>
+<li> 10 Coisas Que Eu Odeio em Você </li>
+<li> P.S. Eu Te Amo (2007)</li>
+
+e um queridinho: camp rock!!
+</h5>
+
+</div>
+</div>
+</div>
+  <script> 
+    function toggleMusic(){
+ const musica= document.getElementById("musica");
+ const botao = document.getElementById("musicButton");
+ if(musica.paused){
+    musica.play();
+    botao.innerHTML = "|| pause";
+ }
+ else{
+    musica.pause();
+    botao.innerHTML= "play music";
+ }
+
+    }
+
+    
+  </script>
+  <div id="spotitify">
+
+<a href="https://open.spotify.com/playlist/2zdU9QU5Mnjd9W5DMgIjSx" target="_blank" class="playlist">
+    <img src="spotify.png" alt="Playlist do Spotify">
+</a>
+
+
+
+  </div>
+  <div id="menininhas"> 
+     <img src="meninas.PNG">
+  </div>
+  <div class="status">
+  <a href="#" class="status">
+  
+</a>
+
+<div class="foods">
+  <h6 id="sobreoq"> E as comidas ???</h6>
+  <p id="comidas"> CLASSICSSSSSSSSSSSSSS!!!</p>
+  <Ul class="comidaslista">
+    
+<li> Brownie</li>
+    <li>Pipoca</li>
+    <li> cupcakes </li>
+    <li>pizza</li>
+    <li>brigadeiro</li>
+   <img src="brigadeiro.PNG" id="brigadeiro">
+   <img src="cupcake.GIF" autoplay loop muted id="cupcake">
+ </Ul>
+ </div>
+ </div>
+ <div id="xbox">
+<P> para fechar!! los juegos ;p </P>
+ </div>
+ <div class="xboxgames" id="just dance">
+<img src="just1.GIF" id="j1">
+<div id="textodança">
+    <p>JUST DANCEEEEEEEEEEEE
+        OMG BATALHA DE DANÇA BEESHO
+        16´17´18´
+    </p>
+    <img src="STICKERJD.PNG" id="STICKERJD">
+    <ul class="listadança">
+ 
+</p>
+<p id="EASPORTS">
+    TERÁ JOGOS ESPORTIVOS TB TA?
+    <img src="xbox1.jpeg" id="xb1">
+    <img src="xbox2.jpeg" id="xb2">
+    <img src="xbox3.jpeg" id="xb3">
+     <img src="controller.PNG" id="gamer">
+</p>
+
+ </div>
+ 
+    <img src="just2.GIF" id="j2">      
+ </div>
+</div>
+</body> 
+</html>
